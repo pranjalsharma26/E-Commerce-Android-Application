@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranafkd.hp_pc.Activities.UserForgetPassActivity">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/forget_pass_edittext"
+                android:inputType="textEmailAddress"
+                android:hint="Entered Registered Email"
+                android:textColorHint="@color/dark"
+                android:textColor="@color/dark"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:background="@drawable/edit_button"
+                android:id="@+id/forget"
+                android:textColor="@color/white"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Get Password Link"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

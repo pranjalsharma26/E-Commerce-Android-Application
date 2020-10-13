@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranafkd.hp_pc.Activities.UserChangePassActivity">
+
+    <RelativeLayout
+        android:layout_below="@+id/rel_one"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@color/background"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/old_pass"
+                    android:textSize="20dp"
+                    android:hint="Old password"
+                    android:textColor="@color/dark"
+                    android:textColorHint="@color/dark"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_design"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/new_pass"
+                    android:layout_below="@+id/profile_name"
+                    android:textSize="20dp"
+                    android:hint="New password"
+                    android:textColor="@color/dark"
+                    android:textColorHint="@color/dark"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_design"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/new_pass2"
+                    android:layout_below="@+id/profile_number"
+                    android:textSize="20dp"
+                    android:hint="Confirm new password"
+                    android:textColor="@color/dark"
+                    android:textColorHint="@color/dark"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_design"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/change"
+                    android:layout_margin="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:text="Change"
+                    android:background="@drawable/edit_button"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hint"
+    tools:context="com.ranafkd.hp_pc.Activities.UserRegisterActivity">
+
+    <RelativeLayout
+        android:id="@+id/Logo"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/citizen"
+            android:layout_width="76dp"
+            android:layout_height="76dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:textColor="@color/dark"
+                android:id="@+id/user_edit_name"
+                android:hint="Name"
+                android:inputType="text"
+                android:textColorHint="@color/dark"
+                android:padding="10dp"
+                android:background="@drawable/edit_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/user_edit_number"
+                android:hint="Number"
+                android:textColor="@color/dark"
+                android:inputType="number"
+                android:textColorHint="@color/dark"
+                android:layout_marginTop="10dp"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:background="@drawable/edit_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/user_edit_email"
+                android:hint="Email"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/dark"
+                android:textColor="@color/dark"
+                android:padding="10dp"
+                android:background="@drawable/edit_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <!--<EditText-->
+            <!--android:id="@+id/citizen_edit_number"-->
+            <!--android:inputType="number"-->
+            <!--android:maxLength="10"-->
+            <!--android:hint="Number"-->
+            <!--android:textColorHint="@color/hint"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@drawable/edit_design"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <EditText
+                android:id="@+id/user_edit_pass"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/user_edit_confpass"
+                android:hint="Confirm password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/dark"
+                android:textColorHint="@color/dark"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <!--<Button-->
+            <!--android:background="@drawable/edit_button"-->
+            <!--android:id="@+id/citizen_verify_btn"-->
+            <!--android:textColor="@color/white"-->
+            <!--style="@style/Widget.AppCompat.Button.Small"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20sp"-->
+            <!--android:text="Get Verfivation Mail"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2" />-->
+
+            <Button
+                android:background="@drawable/edit_button"
+                android:id="@+id/user_register_btn"
+                android:textColor="@color/white"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Register Here"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

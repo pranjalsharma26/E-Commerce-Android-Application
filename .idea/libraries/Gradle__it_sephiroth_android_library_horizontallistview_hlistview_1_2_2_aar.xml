@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: it.sephiroth.android.library.horizontallistview:hlistview:1.2.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/hlistview-1.2.2.aar/a0b75a6d739030da040a4ee2361e4b8c/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/hlistview-1.2.2.aar/a0b75a6d739030da040a4ee2361e4b8c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/hlistview-1.2.2.aar/a0b75a6d739030da040a4ee2361e4b8c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/aa7a5d4642f9794c066948d912e72e712e3d54ef/hlistview-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

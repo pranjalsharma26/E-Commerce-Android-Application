@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranafkd.hp_pc.Activities.contact_us"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/touch"
+        android:text="Get in Touch!"
+        android:textSize="35sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#E7640B"
+        android:gravity="center_horizontal"
+        android:padding="40dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="#Feel_free_to_ask"
+        android:id="@+id/ask"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#E6762A"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/useremail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:text="rahulrana8072@gmail.com"
+                android:paddingLeft="20dp"
+                android:textColor="@color/dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/contact" />
+
+            <TextView
+                android:id="@+id/contactno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:hint="7982766779"
+                android:paddingLeft="20dp"
+                android:textColor="@color/dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:id="@+id/changepass"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/address" />
+
+            <TextView
+                android:id="@+id/changepassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:text="E-2/222, Shivam park nangloi, New Delhi-41"
+                android:textColor="@color/dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Fauji Ki Dukan"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#EEA675"
+        android:id="@+id/fkd"
+        android:gravity="center_horizontal"
+        android:paddingTop="60dp"
+        ></TextView>
+</LinearLayout>

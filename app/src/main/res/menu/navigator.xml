@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_profile"
+        android:icon="@drawable/profile"
+        android:title="My Profile"></item>
+
+    <item
+        android:id="@+id/my_order"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"
+        android:title="My Orders"></item>
+
+    <item
+        android:id="@+id/my_cart"
+        android:icon="@drawable/cart"
+        android:title="My Cart"></item>
+
+    <item
+        android:icon="@drawable/help"
+        android:id="@+id/contact_us"
+        android:title="Contact Us"></item>
+
+    <item
+        android:icon="@drawable/share"
+        android:id="@+id/share"
+        android:title="Share"></item>
+
+</menu>

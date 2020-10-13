@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="2"
+    android:versionName="1.0"
+    package="com.ranafkd.hp_pc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ranafkd.hp_pc.Activities.AddressActivity"/>
+        <activity android:name="com.ranafkd.hp_pc.Activities.UserForgetPassActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.Activities.UserChangePassActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.Activities.UserProfileActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.UserLoginActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.UserRegisterActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.TotalBuy"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.my_order"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.contact_us"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.MyCartActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.CartActivity"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ranafkd.hp_pc.Activities.ItemInfoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.ItemsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.CategoryActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.ranafkd.hp_pc.com.ranafkd.hp_pc.Activities.Dashboard"
+            tools:ignore="MissingClass"></activity>
+    </application>
+
+</manifest>
