@@ -1,0 +1,22 @@
+# Built application files
+.build/intermediate/lint-cache/
+
+# Files for the ART/Dalvik VM
+.idea/
+.rahul/
+.gradle/wrapper/
+
+# Gradle files
+.gradle/
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+local.properties
+
+#Another Files
+Dashboard-app.iml
+Desktop-app.iml
+
+# Keystore files
+- This files area already removed
