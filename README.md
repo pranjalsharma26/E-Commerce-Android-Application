@@ -15,3 +15,5 @@ This project contains only the work which the user has to deal with like payemne
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 NOTE-  Here you need to perform some changes before you run the code. These changes can be done with database and in manifest file.
+
+Some of the screenshots of the app are shown in the directory as well. So, have a look on them too.
